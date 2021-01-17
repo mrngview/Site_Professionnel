@@ -9,6 +9,7 @@ div.cover {
     background: url('Images/cover_overlay.png') no-repeat center/100% 100%, url('Images/cover.jpg') no-repeat center/cover;
     height: 360px;
     padding-top: 100px;
+    
     position: relative;
 }
 
@@ -54,7 +55,7 @@ img.profilepic {
     position:absolute;
     top: 30px;
     left: 20px;
-    border-left: #D89584 solid 3px;
+    border-left: solid #D89584 3px;
     color: white;
     font-size: 14px;
 }
@@ -99,7 +100,26 @@ img.profilepic {
 .sectiongrise1 {
     background: url(Images/triangle2white.svg) no-repeat center bottom/100%;
     background-color: #F4F4F4;
-    padding-bottom: 80px;
+    font-size: 22px;
+    height: 150px;
+}
+
+.ligne {
+    border: solid 1px;
+    width: 150px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #979797;
+}
+
+.intro {
+    text-align: center;
+    color: #656565;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
 }
 
 /* ------------------------SECTION------------------------------- */

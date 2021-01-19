@@ -1,0 +1,281 @@
+body {
+    margin: 0;
+    font-family: arial;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+p {
+    font-weight: lighter;
+}
+
+/* -----------------------COVER---------------------------- */
+
+div.cover {
+    background: url('Images/cover_overlay.png') no-repeat center/100% 100%, url('Images/cover.jpg') no-repeat center/cover;
+    height: 360px;
+    padding-top: 100px;
+    
+    position: relative;
+}
+
+/* --- profile picture + background of profile picture --- */
+
+img.profilepic {
+    width: 150px;
+    position: relative;
+    padding-top: 2.5px;
+    padding-left: 2.5px;
+}
+
+.imgbackground {
+    width: 155px;
+    height: 155px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+}
+
+/* ------------------------------------------------------- */
+
+.imgposition {
+    display: flex;
+    justify-content: center;
+}
+
+.cover h1 {
+    color: white;
+    text-align: center;
+}
+
+.cover p {
+    color: lightgray;
+    text-align: center;
+}
+
+/* ------------------Div Contact--------------------------- */
+
+.contact {
+    position:absolute;
+    top: 30px;
+    left: 20px;
+    border-left: solid #D89584 3px;
+    color: white;
+    font-size: 14px;
+}
+
+.contact td a{ 
+    padding-left: 15px;
+    color: white;
+}
+
+.contact td {
+    padding: 0px;
+}
+
+#padtop {
+    padding-top: 5px;
+}
+
+/* ---------------Bouton "Me contacter"---------------------- */
+
+.boutoncontact:link {
+    color: #D89584;
+    text-decoration: none;
+    border: #D89584 solid 3px;
+    background-color: #00000070;
+    padding: 15px;
+    transition-duration: 0.4s;
+}
+
+.boutoncontact:hover {
+    background-color: #D89584;
+    color: white;
+}
+
+.position {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------------SECTIONGRISE1------------------------------- */
+
+.sectiongrise1 {
+    background: url(Images/triangle2white.svg) no-repeat center bottom/100%;
+    background-color: #F4F4F4;
+    font-size: 22px;
+    height: 200px;
+}
+
+.ligne {
+    border: solid 1px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #979797;
+}
+
+.intro {
+    text-align: center;
+    color: #656565;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+/* ------------------------SECTION------------------------------- */
+
+.section {
+    padding: 40px;
+}
+
+/* ------------------------SECTIONGRISE2------------------------------- */
+
+.sectiongrise2 {
+    background: url(Images/triangle1white.svg) no-repeat center top/100%;
+    background-color: #F4F4F4;
+    padding-top: 80px;
+}
+
+/* -----------------------SECTIONENSAVOIRPLUS-------------------------------- */
+
+.container {
+    display: flex;
+}
+
+.container img {
+    width: 40%;
+    min-width: 312px;
+    max-height: 205px;
+}
+
+.item {
+    padding: 30px;
+}
+
+.ligneverticale2 {
+    margin-top:42px;
+    margin-left: 40;
+    height: 45px;
+    padding: 0px;
+    border-right: 3px #D89584 solid;
+}
+
+/* -----------------------TABLES PORTFOLIO-------------------------------- */
+
+.tableport {
+    width: 45%;
+}
+
+.lignevertport {
+    width: 3px;
+    height: 45px;
+    background-color: #D89584;
+    margin-right: 8px;
+}
+
+.imgport {
+    width: 100%;
+}
+
+.linkport {
+    text-align: center;
+}
+
+/* -----------------------FRAME-------------------------------- */
+
+.profilepicframe {
+    width: 150px;
+    position: relative;
+    padding-top: 2.5px;
+    padding-left: 2.5px;
+}
+
+.frame {
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px 10px;
+    margin: 30px 50px;
+}
+
+.pframe {
+    margin-top: 0px;
+    padding-left: 8px;
+}
+
+.textelignevert {
+    border-left: 4px solid #D89584;
+    height: 50px;
+    display: inline-block;
+}
+
+/*Header*/
+
+.portfolio-header {
+    height: 90px;
+    background: url('Images/header.jpg') no-repeat center/100% 100%, url('Images/cover.jpg') no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.headerposition {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.headerposition h1 {
+    color: white;
+    font-size: 26px;
+    top: 50%;
+    padding-left: 15px;
+}
+
+.portfolio-bouton {
+    position: absolute;
+    right: 0px;
+    margin-right: 10px;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+h1.portfolio {
+    margin-bottom: 10px;
+    font-size: 46px;
+}
+
+h2.portfolio {
+    margin-top: 0px;
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.portfolio-back {
+    float: left;
+    margin-left: -27px;
+    color: #D89584;
+    font-size: 18px;
+}
+
+.container-portfolioimg {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.portfolio-img {
+    width: 70%;
+    max-width: 550px;
+    padding-bottom: 30px;
+}

@@ -12,6 +12,12 @@ p {
     font-weight: lighter;
 }
 
+iframe {
+    width: 100%;
+    border: none;
+    height: 340px;
+}
+
 /* -----------------------COVER---------------------------- */
 
 div.cover {
@@ -160,6 +166,7 @@ img.profilepic {
 
 .item {
     padding: 30px;
+    padding-left: 10px;
 }
 
 .ligneverticale2 {
@@ -278,4 +285,143 @@ h2.portfolio {
     width: 70%;
     max-width: 550px;
     padding-bottom: 30px;
+}
+
+/* ---------------------------------------MOBILE SCREENS-------------------------------- */
+
+@media only screen and (max-width: 768px){
+
+    .portfolio-back {
+        color: #D89584;
+        padding-left: 35px;
+        font-size: 15px;
+    }
+
+/* HEADER */
+
+    .boutoncontact:link {
+        color: #D89584;
+        text-decoration: none;
+        border: #D89584 solid 3px;
+        background-color: #00000070;
+        padding: 10px;
+        transition-duration: 0.4s;
+        font-size: smaller;
+    }
+    
+    .boutoncontact:hover {
+        background-color: #D89584;
+        color: white;
+    }
+    
+    .position {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .portfolio-header h1 {
+        font-size: 20px;
+    }
+
+    /* SECTION GRISE 1 */
+
+    .sectiongrise1{
+        height: 160px;
+    }
+
+    .section {
+        padding-top: 25px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+/* EN SAVOIR PLUS */
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
+    .container img {
+        padding: 0;
+    }
+    
+    .item {
+        padding: 30px;
+    }
+    
+    .ligneverticale2 {
+        position: absolute;
+        margin-top: 0px;
+        height: 45px;
+        padding: 0px;
+        border-right: 3px #D89584 solid;
+    }    
+
+/* ------------------------SECTIONGRISE2------------------------------- */
+
+    .sectiongrise2 {
+        background: url(Images/triangle1white.svg) no-repeat center top/100%;
+        background-color: #F4F4F4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section2 {
+        padding: 25px;
+        padding-bottom: 15px;
+    }
+
+    .tableport {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .lignevertport {
+        width: 3px;
+        height: 45px;
+        background-color: #D89584;
+        margin-right: 8px;
+    }
+
+    .imgport {
+        width: 100%;
+    }
+
+    .linkport {
+        text-align: center;
+    }
+
+/* -----------------------FRAME-------------------------------- */
+
+    .profilepicframe {
+        width: 70px;
+        padding: 0;
+    }
+
+    .frame {
+        box-shadow: 0px 0px 0px 0px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .pframe {
+        margin-top: 0px;
+        padding-left: 8px;
+        font-size: medium;
+    }
+
+    .textelignevert {
+        border-left: 4px solid #D89584;
+        height: 50px;
+        display: inline-block;
+    }
+
+    h2 {
+        margin-top: 10px;
+    }
+
 }
